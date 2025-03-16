@@ -4,6 +4,9 @@
 // The current database to use.
 use("blogverse");
 
+// create collection
+db.createCollection("blogs");
+
 // insert blog data
 db.blogs.insertMany([
     {
