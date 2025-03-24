@@ -16,10 +16,10 @@ This repository contains MongoDB queries for the **Blog API**, including:
     - Retrieve blogs by author  
     - Fetch all comments for a blog 
 - **Aggregation Queries:**  
-  - Most commented blogs  
-  - Blogs by category  
-  - Blogs by author  
-  - Total comments per blog  
+  - find blog with most comments  
+  - find the most active commenters  
+  - find blogs with the longest content
+  - count the number of blogs per category
 
 These queries support efficient data retrieval and analysis for the blog application. 🚀
 
